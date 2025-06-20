@@ -1,0 +1,42 @@
+.slogan {
+  height: 20vh;
+  width: 100%;
+  background-color: #ff5200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: Gilroy;
+}
+
+.slogan strong {
+  width: 70vw;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #ff5200;
+}
+
+.slogan img {
+  height: 500px;
+}
+.slogan .ImgRight {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: -50%;
+  width: 280px;
+  aspect-ratio: 1;
+  background: transparent;
+  overflow: hidden;
+}
+.slogan .ImgLeft {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: -50%;
+  width: 280px;
+  background: transparent;
+}

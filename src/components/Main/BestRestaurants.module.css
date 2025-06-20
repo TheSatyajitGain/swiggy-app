@@ -1,0 +1,152 @@
+.BestRestaurants {
+  font-family: Gilroy;
+  margin: 50px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  transition: all 0.3s ease-in-out;
+  font-family: Gilroy;
+}
+
+h2 {
+  color: rgba(2, 6, 12, 0.92);
+  padding-left: 80px;
+}
+
+.icon {
+  width: 80vw;
+  height: 40px;
+  margin: 0 auto 10px;
+  position: relative;
+  display: flex;
+  padding: 50px 50px 30px 0px;
+}
+
+.icon ion-icon {
+  font-size: 22px;
+  padding: 8px;
+  margin-left: 10px;
+  background-color: #babcbd;
+  color: #333;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+ion-icon[name='arrow-back-outline'] {
+  position: absolute;
+  right: 40px;
+}
+ion-icon[name='arrow-forward-outline'] {
+  position: absolute;
+  right: -40px;
+}
+.icon ion-icon:hover {
+  background-color: #a0a3a5;
+  transform: scale(1.1);
+}
+
+.icon ion-icon:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.restaurantCard {
+  height: 200px;
+  width: 320px;
+  object-fit: cover;
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+}
+
+.restaurantCard img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
+.restaurantCard h3 {
+  font-size: 22px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 8px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  background-color: rgb(58, 59, 59);
+}
+
+.restaurantCard h4 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.restaurantCard h4 ion-icon {
+  font-size: 13px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: #1ba672;
+}
+
+.restaurantCard h4 span {
+  font-size: 17px;
+}
+.extraInfo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: rgba(2, 6, 12, 0.6);
+  padding-top: 14px;
+}
+
+.extraInfo .first {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.extraInfo .second {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.offer {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #1ba672;
+  font-family: Gilroy;
+  color: white;
+  letter-spacing: 1px;
+}
+.offer img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.bankOffer {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #c8f9e5;
+  font-family: Gilroy;
+  color: #1ba672;
+  letter-spacing: 1px;
+}

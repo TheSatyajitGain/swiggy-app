@@ -1,0 +1,21 @@
+.OfferContainer {
+  width: 100%;
+  height: 400px;
+  background-color: #ff5200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 0px auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-family: Gilroy;
+}
+.containerBox {
+  height: 400px;
+  width: 400px;
+
+  object-fit: cover;
+}
+.containerBox img {
+  width: 100%;
+}

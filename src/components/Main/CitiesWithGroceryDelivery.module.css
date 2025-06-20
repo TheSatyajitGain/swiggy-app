@@ -1,0 +1,43 @@
+.cityDelivery {
+  width: 80%;
+  margin: 80px auto;
+}
+.cityDelivery h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.cities {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+}
+
+.city {
+  width: 250px;
+  border: 1.5px solid rgba(2, 6, 12, 0.15);
+  border-radius: 12px;
+  text-align: center;
+  padding: 16px;
+}
+
+.showMore {
+  width: 250px;
+  border: 1.5px solid rgba(2, 6, 12, 0.15);
+  border-radius: 12px;
+  text-align: center;
+  padding: 16px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.showMore span {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Gilroy;
+  color: #ff5200;
+}

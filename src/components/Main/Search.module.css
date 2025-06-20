@@ -1,0 +1,84 @@
+.search {
+  height: 8vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  background-color: #ff5200;
+  font-family: Gilroy;
+}
+.location {
+  height: 60px;
+  width: 340px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.location input[type='text'] {
+  display: inline-block;
+  width: 60%;
+  margin-left: 15px;
+  border: none;
+  background-color: white;
+}
+
+.location input[type='text']:focus {
+  outline: none;
+}
+ion-icon[name='location'] {
+  color: #ff5200;
+  position: absolute;
+  top: 25%;
+  left: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+}
+
+ion-icon[name='chevron-down-outline'] {
+  color: #ff5200;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  height: 34px;
+  width: 34px;
+}
+
+/* Second Search Bar Start Here */
+.searchByItem {
+  height: 60px;
+  width: 440px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+}
+
+.searchByItem input[type='text'] {
+  background-color: white;
+  display: inline-block;
+  width: 80%;
+  margin-left: 30px;
+  border: none;
+  position: absolute;
+  top: 35%;
+}
+
+.searchByItem input[type='text']:focus {
+  outline: none;
+}
+
+ion-icon[name='search'] {
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 32%;
+  right: 15px;
+  height: 20px;
+  width: 20px;
+}
