@@ -9,7 +9,7 @@ const OfferContainer = () => {
     <div className={Styles.OfferContainer}>
       {container.map((imgSrc, key) => {
         return (
-          <Link to="/restaurants" key={key}>
+          <Link to="/restaurants" key={key} aria-label="restaurants">
             <div className={Styles.containerBox}>
               <img src={imgSrc} alt="" />
             </div>
