@@ -1,5 +1,6 @@
 import img from '../../assets/SwiggyLogo.png';
 import styles from './Header.module.css';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -14,9 +15,14 @@ const Header = () => {
           <li>Partner with us</li>
         </ul>
         <div className={styles.navigationExtra}>
-          <a href="" className={styles.app}>
+          <Link
+            to="appDownload"
+            smooth={true}
+            duration={3000}
+            className={styles.app}
+          >
             <strong>Get the App</strong>
-          </a>
+          </Link>
           <a href="" className={styles.signIn}>
             <strong>Sign in</strong>
           </a>
