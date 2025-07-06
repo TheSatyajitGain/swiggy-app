@@ -6,7 +6,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  font-family: Gilroy;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 400;
 }
 
 .slogan strong {
@@ -15,7 +16,7 @@
   font-size: 48px;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   background-color: #ff5200;
 }
 

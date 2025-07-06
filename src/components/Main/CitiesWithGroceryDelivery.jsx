@@ -13,9 +13,11 @@ const CitiesWithGroceryDelivery = () => {
     <div className={Styles.cityDelivery}>
       <h2>Cities with Grocery delivery</h2>
       <div className={Styles.cities}>
-        {Cities.slice(0, array).map((city) => {
+        {Cities.slice(0, array).map((city, key) => {
           return (
-            <div className={Styles.city}>Order Grocery Online in {city}</div>
+            <div className={Styles.city} key={key}>
+              Order Grocery Online in {city}
+            </div>
           );
         })}
         <div className={Styles.showMore} ref={useRefElement}>

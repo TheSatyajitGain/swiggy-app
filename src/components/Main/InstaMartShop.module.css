@@ -6,7 +6,8 @@
   align-items: center;
   gap: 30px;
   transition: all 0.3s ease-in-out;
-  font-family: Gilroy;
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: 400;
 }
 
 .categoryItem {
@@ -37,7 +38,7 @@ h2 {
   color: rgba(2, 6, 12, 0.92);
   padding-left: 80px;
   margin-bottom: 50px;
-  font-family: Gilroy;
+  font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .icon {

@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   gap: 15px;
   transition: all 0.3s ease-in-out;
-  font-family: Gilroy;
+  font-family: 'Gilroy-Regular', sans-serif;
 }
 
 h2 {
@@ -69,7 +69,8 @@ ion-icon[name='arrow-forward-outline'] {
 }
 
 .restaurantCard h3 {
-  font-size: 22px;
+  font-size: 19px;
+  letter-spacing: 1px;
   position: absolute;
   bottom: 0;
   padding-left: 8px;

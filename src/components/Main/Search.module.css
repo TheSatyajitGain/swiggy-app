@@ -7,7 +7,7 @@
   gap: 50px;
   position: relative;
   background-color: #ff5200;
-  font-family: Gilroy;
+  font-family: 'Gilroy-Regular', sans-serif;
 }
 .location {
   height: 60px;

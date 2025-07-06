@@ -9,8 +9,8 @@ const OfferContainer = () => {
     <div className={Styles.OfferContainer}>
       {container.map((imgSrc, key) => {
         return (
-          <Link to="/restaurants">
-            <div key={key} className={Styles.containerBox}>
+          <Link to="/restaurants" key={key}>
+            <div className={Styles.containerBox}>
               <img src={imgSrc} alt="" />
             </div>
           </Link>
