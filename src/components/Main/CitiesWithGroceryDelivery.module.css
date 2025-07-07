@@ -1,10 +1,13 @@
 .cityDelivery {
   width: 80%;
   margin: 80px auto;
+  position: relative;
 }
 .cityDelivery h2 {
   font-size: 24px;
-  margin-bottom: 30px;
+  position: absolute;
+  left: -20px;
+  top: -30px;
 }
 .cities {
   display: flex;
@@ -12,6 +15,7 @@
   flex-wrap: wrap;
   align-content: center;
   gap: 20px;
+  padding-top: 30px;
 }
 
 .city {
