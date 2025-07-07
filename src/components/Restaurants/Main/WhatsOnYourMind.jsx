@@ -11,8 +11,6 @@ const WhatsOnYourMind = ({ data }) => {
 
   const WhatsOnYourMind = data.data.cards[0].card.card.imageGridCards.info;
   const header = data.data.cards[0].card.card.header.title;
-  console.log(WhatsOnYourMind);
-  console.log(data);
 
   const ITEMS_PER_PAGE = 7;
   const [page, setPage] = useState(0);

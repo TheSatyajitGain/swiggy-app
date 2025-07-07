@@ -1,5 +1,5 @@
 .category {
-  margin: 80px auto;
+  margin: 10px auto 70px auto;
   padding-top: 20px;
   width: 80vw;
   display: grid;
@@ -36,7 +36,7 @@
 .icon {
   width: 80vw;
   height: 40px;
-  margin: 0 auto 10px;
+  margin: 70px auto 20px auto;
   position: relative;
   display: flex;
   justify-content: flex-end;
