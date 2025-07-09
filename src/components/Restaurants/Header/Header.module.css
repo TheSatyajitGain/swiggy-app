@@ -35,7 +35,6 @@
 }
 
 .location ion-icon {
-  color: #ff5200;
   height: 29px;
   width: 29px;
   transition: all 0.5s;
@@ -54,7 +53,7 @@
   font-size: 16px;
 }
 .navitem {
-  color: #4a3543;
+  color: #030c1b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +64,7 @@
 .navitem span {
   font-size: 16px;
   font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 

@@ -1,0 +1,104 @@
+.icon {
+  width: 90%;
+  height: 40px;
+  margin: 78px auto 10px auto;
+  position: relative;
+}
+
+.icon ion-icon {
+  font-size: 22px;
+  padding: 8px;
+  background-color: #babcbd;
+  color: #333;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+ion-icon[name='arrow-back-outline'] {
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+ion-icon[name='arrow-forward-outline'] {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+.icon ion-icon:hover {
+  background-color: #a0a3a5;
+  transform: scale(1.1);
+}
+
+.icon ion-icon:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.topRestaurants {
+  width: 90%;
+  margin: 20px auto 0px auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.restaurantCard {
+  margin: 20px auto;
+  height: 200px;
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 1s;
+  font-family: 'Gilroy-Regular', sans-serif;
+  position: relative;
+}
+.restaurantCard:hover {
+  scale: 0.9;
+}
+.restaurantCard img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.restaurantCard h1 {
+  width: 100%;
+  background-color: #4646ac;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 85%;
+}
+.extraInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  margin-top: -10px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 40px;
+  position: relative;
+}
+.rating ion-icon {
+  padding: 4px;
+  top: 0;
+  background-color: #198d3e;
+  color: white;
+  border-radius: 20px;
+}
+
+.ratingText {
+  position: absolute;
+  margin-left: 3px;
+  top: 4px;
+}

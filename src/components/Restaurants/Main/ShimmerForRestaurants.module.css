@@ -1,0 +1,122 @@
+.WhatsOnYourMind {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: 400;
+}
+
+.WhatsOnYourMindItem {
+  height: 140px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  border-radius: 12px;
+  color: rgba(2, 6, 12, 0.75);
+  background-color: #babcbd;
+  transition: transform 0.2s ease-in-out;
+}
+
+.WhatsOnYourMindItem:hover {
+  transform: scale(1.05);
+}
+
+.WhatsOnYourMindIcon {
+  width: 90%;
+  height: 40px;
+  margin: 38px auto 10px auto;
+  position: relative;
+}
+
+.WhatsOnYourMindIcon h2 {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-size: 22px;
+  position: absolute;
+  margin-left: 80px;
+  color: #babcbd;
+  background-color: #babcbd;
+  border-radius: 10px;
+}
+
+.WhatsOnYourMindIcon ion-icon {
+  font-size: 22px;
+  padding: 8px;
+  background-color: #babcbd;
+  color: #babcbd;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.WhatsOnYourMindIcon ion-icon[name='arrow-back-outline'] {
+  position: absolute;
+  right: 100px;
+  top: 0;
+  background-color: #babcbd;
+}
+.WhatsOnYourMindIcon ion-icon[name='arrow-forward-outline'] {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background-color: #babcbd;
+}
+.topRestaurantChainsIcon {
+  width: 90%;
+  height: 40px;
+  margin: 78px auto 10px auto;
+  position: relative;
+}
+
+.topRestaurantChainsIcon h2 {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-size: 22px;
+  position: absolute;
+  margin-left: 80px;
+  color: #babcbd;
+  background-color: #babcbd;
+  border-radius: 10px;
+}
+
+.topRestaurantChainsIcon ion-icon {
+  font-size: 22px;
+  padding: 8px;
+  background-color: #babcbd;
+  color: #babcbd;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.topRestaurantChainsIcon ion-icon[name='arrow-back-outline'] {
+  position: absolute;
+  right: 100px;
+  top: 0;
+  background-color: #babcbd;
+}
+.topRestaurantChainsIcon ion-icon[name='arrow-forward-outline'] {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background-color: #babcbd;
+}
+.topRestaurants {
+  width: 80%;
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.topRestaurantsCard {
+  background-color: #babcbd;
+  margin: 20px auto;
+  height: 200px;
+  width: 280px;
+  border-radius: 10px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}

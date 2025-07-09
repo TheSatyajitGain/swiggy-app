@@ -1,0 +1,88 @@
+{
+  "info": {
+    "id": "841079",
+    "name": "Olio - The Wood Fired Pizzeria",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/80095cfe-a056-455c-98c9-1a02ae17f575_841079.JPG",
+    "locality": "96th Street",
+    "areaName": "Rajarhat",
+    "costForTwo": "₹300 for two",
+    "cuisines": [
+      "Pizzas",
+      "Pastas",
+      "Italian",
+      "Fast Food",
+      "Snacks",
+      "Beverages",
+      "Desserts"
+    ],
+    "avgRating": 4.3,
+    "parentId": "11633",
+    "avgRatingString": "4.3",
+    "totalRatingsString": "1.6K+",
+    "sla": {
+      "deliveryTime": 26,
+      "lastMileTravel": 5.6,
+      "serviceability": "SERVICEABLE",
+      "slaString": "25-30 mins",
+      "lastMileTravelString": "5.6 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2025-07-09 06:00:00",
+      "opened": true
+    },
+    "badges": {
+      "imageBadges": [
+        {
+          "imageId": "newg.png",
+          "description": "Gourmet"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "Gourmet",
+                "imageId": "newg.png"
+              }
+            }
+          ]
+        },
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "ITEMS",
+      "subHeader": "AT ₹99"
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+      "aggregatedRating": {
+        "rating": "--"
+      }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+    "context": "seo-data-4b489bf5-878b-416f-be1c-9a6331858628"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/city/kolkata/olio-the-wood-fired-pizzeria-96th-street-rajarhat-rest841079",
+    "type": "WEBLINK"
+  }
+}

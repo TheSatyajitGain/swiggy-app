@@ -1,12 +1,10 @@
 import { useState } from 'react';
 import Styles from './WhatsOnYourMind.module.css';
+import { constant } from '../Constants/constants';
+
 const WhatsOnYourMind = ({ data }) => {
-  if (data === null) {
-    return (
-      <>
-        <h1>Loading</h1>
-      </>
-    );
+  if (data === undefined) {
+    return null;
   }
 
   const WhatsOnYourMind = data.data.cards[0].card.card.imageGridCards.info;
@@ -14,8 +12,6 @@ const WhatsOnYourMind = ({ data }) => {
 
   const ITEMS_PER_PAGE = 7;
   const [page, setPage] = useState(0);
-  const img =
-    'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/';
 
   const startIndex = page * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
@@ -35,7 +31,7 @@ const WhatsOnYourMind = ({ data }) => {
 
   return (
     <>
-      <div className={Styles.icon}>
+      <div className={Styles.WhatsOnYourMindIcon}>
         <h2>{header}</h2>
         <ion-icon
           name="arrow-back-outline"
@@ -53,10 +49,10 @@ const WhatsOnYourMind = ({ data }) => {
         ></ion-icon>
       </div>
 
-      <div className={Styles.category}>
+      <div className={Styles.WhatsOnYourMind}>
         {visibleItems.map((category, key) => (
-          <div className={Styles.categoryItem} key={key}>
-            <img src={img + category.imageId} alt={category.name} />
+          <div className={Styles.WhatsOnYourMindItem} key={key}>
+            <img src={constant + category.imageId} alt={category.name} />
           </div>
         ))}
       </div>
